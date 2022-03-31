@@ -1,0 +1,3 @@
+https://github.com/zena3/AI-vs-Angelou/blob/main/Train_a_GPT_2_Text_Generating_Model_w_GPU_XL.ipynb
+https://www.sciencedirect.com/science/article/pii/S0747563220303034
+ The Big Bad NLP Database : https://index.quantumstat.com/#POEM%20
