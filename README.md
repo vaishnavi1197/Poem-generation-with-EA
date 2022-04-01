@@ -1,6 +1,7 @@
 # Poem-generation-with-EA
 
 I am creating this repo for us to edit code and keep everyone updated.
+I am using EA.ipynb with Trial_data.txt and Dataset_poems.txt
 
 # 3/31/2022: 
 ## Basic functions created
@@ -17,6 +18,6 @@ I am creating this repo for us to edit code and keep everyone updated.
  made a Dataframe with each line of poem its syllables and error as colums and no of poems are rows.
  
 ## Database created:
-  temp is with only 1 poem for testing
+  Trial_data.txt is with only 1 poem for testing
   
-  Dataset_poems id entire dataset of Maya Angelou poems.
+  Dataset_poems.txt id entire dataset of Maya Angelou poems.
