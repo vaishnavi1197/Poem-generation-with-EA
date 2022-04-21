@@ -1,0 +1,26 @@
+1. create_set_of_poems(no of poems to be made)
+	1. select_random_words()
+	2. create_poems(from random words)
+	3. store_syllables(random words)
+	4. Grammar_checker(poems created in 2.)
+	5. poem_population(append all poems)
+	   syllables_count(append all syllablessum)
+	6. grammar_error(append all grammar error 4.)
+	7. words_array_population(append all words)
+	8. DataFrame of all population
+2. select_random_words(): take random 16 words from dataset and append them together
+3. create_poems(random words): create poems by grouping 4 words together in 1 array for each line
+4. store_syllables(random words): calculate sum of syllables of all random words
+5. Grammar_checker(poems): checks grammar with [language_tool_python.LanguageTool('en-US')]
+6. child_poems(random words of parents,crossover number):
+	1. crossover(random words of parent1,random words of parent2,crossover number)
+	2. child_population(append all child poems)
+	3. store_syllables1&22(child random words)
+	4. Grammar_checker1&2(poems created in 2.)
+	5. syllables_count(append all syllables 1&2)
+	6. grammar_error(append all grammar error 1&2)
+	7. words_array_child(append 1&2 poem)
+	8.. DataFrame of all child population
+7. crossover(parent1,parent2,crossover number): Acc to user input of crossover number make cuts in parents array(non-uniform) append and shuffle and rearrange.
+8. tournament(population): Select 1/3rd random poems and 2/3rd with least grammar error and right syllables.
+9. selection_from_child_parents(parent_population,child_population,total_population_count): Select 1/3rd of population count from parents and 2/3rd from children randomly.
